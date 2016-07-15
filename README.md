@@ -1,6 +1,6 @@
 <h1 align="center">
   <br>
-	<img src="https://raw.githubusercontent.com/Kadaaran/treasure-chest/master/14_treasure_chest.svg" alt="Chest" width="300">
+	<img src="http://pix.iemoji.com/images/emoji/apple/ios-9/256/banknote-with-dollar-sign.png" alt="Chest" width="300">
   <br>
   Treasure Chest
   <br>

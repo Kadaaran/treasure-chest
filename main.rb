@@ -48,4 +48,4 @@ extras = gets.to_i
 negative = rent + food + extras + tripMoneySaving
 rest = positive - negative
 # results
-print "So you have to save " + tripMoneySaving.to_s + " " + currency + " per month" + rest.to_s + " " + currency + " remains after your trip-saved-money has been taken !"
+print "So you have to save " + tripMoneySaving.to_s + " " + currency + " per month and " + rest.to_s + " " + currency + " remains after your trip-saved-money has been taken !"

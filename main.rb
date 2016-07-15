@@ -5,7 +5,7 @@ require 'time'
 puts "Welcome in treasure-chest !"
 
 # How long before the trip starts ?
-puts "So now tell, me when do your trip start ? (use yyyy/mm/dd)"
+puts "So now tell me, when does your trip start ? (use yyyy/mm/dd)"
 date1 = gets.to_s
 date2 = Date.today.to_s
 a = Date.parse(date1)

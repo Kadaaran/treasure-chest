@@ -13,3 +13,9 @@ Clone and run :
 
 
 (Improvments needed)
+
+----  
+
+TODO  
+
+* Add array for currency

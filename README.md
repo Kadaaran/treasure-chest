@@ -16,6 +16,8 @@ Clone and run :
 
 <h1 align="center">
     <br>
+        <img src="http://emojipedia-us.s3.amazonaws.com/cache/52/c0/52c0650cc332ce86f2fa9d50e8772505.png" alt="Licence" width="100">
+    <br>
     Licence
     <br>
 </h1>

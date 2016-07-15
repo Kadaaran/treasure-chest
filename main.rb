@@ -8,6 +8,10 @@ puts "Welcome in treasure-chest !"
 puts "So now tell me, when does your trip start ? (use yyyy/mm/dd)"
 date1 = gets.to_s
 date2 = Date.today.to_s
+if date1 < date2
+  puts "Did you try to go to the past ?"
+  exit;
+end
 a = Date.parse(date1)
 b = Date.parse(date2)
 monthsLeft = (a.mjd - b.mjd)/30
@@ -44,4 +48,4 @@ extras = gets.to_i
 negative = rent + food + extras + tripMoneySaving
 rest = positive - negative
 # results
-print "So in one month remains : " +  rest.to_s + " " + currency + "after your saving-money-trip has been taken !"
+print "So you have to save " , tripMoneySaving.to_s , " " , currency + " per month and " , rest.to_s , " " , currency , " remains after your trip-saved-money has been taken !"
